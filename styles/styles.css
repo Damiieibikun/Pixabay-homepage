@@ -109,7 +109,7 @@ body {
 #all-images:hover {
     cursor: pointer;
     /* background-color: rgba(128, 128, 128, 0.111);
-    border: none; */
+border: none; */
 }
 
 .green-btn,
@@ -172,21 +172,37 @@ body {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-template-rows: 200px 100px 100px 100px 200px 100px 100px 100px 200px 100px 100px 100px;
-    color: white;
     gap: 10px;
 }
 
-.grid-item {
-    background-color: green;
-    border-radius: 5px;
+.grid-item,
+.grid-itemc {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    border: 1px solid green;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-itemc {
+    border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+
+.grid-itemc:hover,
+.grid-item:hover {
+    cursor: pointer;
+}
+
+.grid-itemc:hover {
+    scale: 1.01;
+    transition: ease-in-out .5s;
 }
 
 .tall1 {
@@ -199,4 +215,19 @@ body {
 
 .tall3 {
     grid-row: span 4;
+}
+
+
+/* images background */
+
+.one {
+    background-image: url('../images/img1.jpg');
+}
+
+.two {
+    background-image: url('../images/img2.png');
+}
+
+.ten {
+    background-image: url('../images/img10.jpg');
 }
