@@ -173,18 +173,20 @@ border: none; */
     grid-template-columns: repeat(4, auto);
     grid-template-rows: 200px 100px 100px 100px 200px 100px 100px 100px 200px 100px 100px 100px;
     gap: 10px;
+    margin-bottom: 40px;
 }
 
 .grid-item,
 .grid-itemc {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 30px; */
     border: 1px solid green;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: beige;
 }
 
 .grid-itemc {
@@ -206,7 +208,7 @@ border: none; */
 }
 
 .tall1 {
-    grid-row: span 0.5;
+    grid-row: span 2;
 }
 
 .tall2 {
@@ -226,6 +228,107 @@ border: none; */
 
 .two {
     background-image: url('../images/img2.png');
+}
+
+.five {
+    background-image: url('../images/img5.jpg');
+}
+
+.overlay2 {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.484);
+    height: 100%;
+}
+
+.overlay2>div {
+    position: absolute;
+    width: 100%;
+}
+
+
+/* .overlay2:nth-child(1) {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: red;
+    height: 50%;
+}
+
+.overlay2:nth-child(2) {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f7f7f7;
+    font-size: 13px;
+    height: 50%;
+} */
+
+
+/* .overlay2:nth-child(1) img {
+    border-radius: 5px;
+    width: 50px;
+}
+
+.overlay2:nth-child(2) img {
+    width: 100px;
+} */
+
+.music-img {
+    /* width: 100%; */
+    background-image: url('../images/music1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.music-info>img {
+    border-radius: 5px;
+    width: 40px;
+    margin-left: 15px;
+}
+
+.music-img {
+    height: 50%;
+    top: 0;
+}
+
+.music-info {
+    background-color: #f7f7f7;
+    height: 50%;
+    bottom: 0;
+    font-size: 13px;
+    gap: 10px;
+    align-items: center;
+}
+
+
+/* .five :nth-child(1) {
+    background-color: rgba(0, 0, 0, 0.484);
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.five :nth-child(2) {
+    height: 50%;
+    width: 100%;
+    background-color: #f7f7f7;
+    position: absolute;
+    bottom: 0;
+}
+
+.five :nth-child(2) img {
+    border-radius: 5px;
+    width: 15%;
+} */
+
+.eight {
+    background-image: url('../images/img8.jpg');
+}
+
+.nine {
+    background-image: url('../images/img9.jpg');
 }
 
 .ten {
