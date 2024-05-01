@@ -177,7 +177,6 @@ body {
 
 .grid-item,
 .grid-itemc {
-    border: 1px solid green;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -188,11 +187,11 @@ body {
 }
 
 .grid-itemc {
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
 }
 
 .grid-itemc:hover,
@@ -217,10 +216,14 @@ body {
     grid-row: span 4;
 }
 
+
+/* Images styles */
+
 .overlay2 {
     position: relative;
     background-color: rgba(0, 0, 0, 0.484);
     height: 100%;
+    border-radius: 7px;
 }
 
 .music-playlist {
@@ -432,6 +435,7 @@ body {
     background-color: rgba(0, 0, 0, 0.484);
     height: 100%;
     width: 100%;
+    border-radius: 7px;
 }
 
 .one:hover,
