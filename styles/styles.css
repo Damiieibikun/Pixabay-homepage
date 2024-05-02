@@ -365,7 +365,16 @@
         
         .sher-section {
             justify-content: space-between;
-            background-color: rgba(0, 0, 0, 0.071);
+            /* background-color: rgba(0, 0, 0, 0.071); */
+            background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.547) 100%);
+            padding: 5px 10px;
+            display: none;
+        }
+        
+        .sher-section2 {
+            justify-content: space-between;
+            /* background-color: rgba(0, 0, 0, 0.071); */
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.552) 100%);
             padding: 5px 10px;
             display: none;
         }
@@ -522,19 +531,18 @@
         .twenty-one:hover,
         .twenty-two:hover,
         .twenty-three:hover {
-            .sher-section {
+            .sher-section,
+            .sher-section2 {
                 display: flex;
             }
         }
         /* Bottom section */
         
         .discover-more {
-            background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.882), rgba(255, 255, 255, 0.4));
-            /* height: 160px; */
-            height: 119px;
-            /* bottom: 180px; */
-            bottom: 158px;
+            height: 120px;
+            bottom: 160px;
             position: relative;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
         }
         
         .discover-more>div {
