@@ -39,12 +39,27 @@
             background-color: rgba(0, 0, 0, 0.281);
             height: 465px;
             width: 100%;
+            flex-direction: column;
+            justify-content: space-between;
         }
         
         .hero-section h2 {
             font-size: 35px;
             margin: 0;
             font-weight: 800;
+        }
+        
+        .hero-bottom {
+            justify-content: space-between;
+            margin: 15px 30px;
+            color: #f7f7f7db;
+            font-size: 13px;
+        }
+        
+        .hero-bottom span:hover {
+            cursor: pointer;
+            color: white;
+            text-decoration: underline;
         }
         
         @font-face {
@@ -156,6 +171,15 @@
         .main {
             width: 95%;
             margin: auto;
+        }
+        
+        .categories {
+            flex-wrap: wrap;
+        }
+        
+        #home-btn {
+            background-color: rgba(128, 128, 128, 0.111);
+            color: black;
         }
         
         .pill-container {
