@@ -158,6 +158,10 @@
             margin: auto;
         }
         
+        .pill-container {
+            justify-content: space-between;
+        }
+        
         .pill {
             padding: 30px 0;
             gap: 10px;
@@ -173,6 +177,39 @@
         .pill span:hover {
             border: 1px solid black;
             cursor: pointer;
+            transition: .25s all;
+        }
+        
+        #editors {
+            border: 1px solid rgba(0, 0, 0, 0.234);
+            padding: 5px 7px;
+            border-radius: 15px;
+            width: 150px;
+            gap: 7px;
+            font-weight: 500;
+        }
+        
+        #editors:hover {
+            border: 1px solid black;
+            cursor: pointer;
+            transition: .25s all;
+        }
+        
+        #settings {
+            width: 40px;
+            height: 40px;
+            padding: 5px;
+            border-radius: 50%;
+        }
+        
+        #settings:hover {
+            background-color: rgba(128, 128, 128, 0.111);
+            cursor: pointer;
+        }
+        
+        .settings-info {
+            gap: 15px;
+            border-left: 1px solid rgba(0, 0, 0, 0.116);
         }
         /* grid section */
         
